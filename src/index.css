@@ -16,7 +16,6 @@ body {
   width: 25rem;
   display: flex;
   justify-content: space-between;
-  gap: 3rem;
   padding: 0.625rem 1.25rem;
   margin: auto auto auto 0;
   border-radius: 15px;
@@ -34,7 +33,7 @@ body {
 .home-button {
   background-image: linear-gradient(282deg, #4c410b 0%, #F76B1C 100%);
   cursor: cell;
-  width: 100%;
+  width: 70%;
   height: 100%;
   font-size: 2rem;
   border-radius: 15px;
