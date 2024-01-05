@@ -10,7 +10,7 @@ export const useMetMuseumApi = () => {
     useEffect(() => {
         const fecthArtObjects = async () => {
             try {
-                const response = await fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects')
+                const response = await fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects?limit=3')
                 const data = await response.json()
                 console.log(data)
                 setArtPieces(data.objectIDs)
