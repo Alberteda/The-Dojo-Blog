@@ -3,14 +3,14 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className="navbar">
-        <div className="navbar-wrapper-button">
+        <div className="navbar-button-wrapper">
             <button  className='home-button' href="/home" >
                 Home
             </button>
         </div>
-        <div className="navbar-wrapper-button">
-            <button className='new-blog-home-button' href="/NewBlog">
-                New Blog
+        <div className="navbar-button-wrapper">
+            <button className='play-button' href="/NewBlog">
+                Play
             </button>
         </div>
     </div>
