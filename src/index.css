@@ -5,6 +5,48 @@
 * {
   margin: 0;
   font-family: 'Rubik Doodle Shadow', system-ui;
+}
+body {
   background-color: #66645c;
+  padding: 50px 0;
+  color: white;
+}
+
+.navbar {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 0.625rem 1.25rem;
+  margin: auto auto auto 0;
+  border-radius: 15px;
+}
+
+.navbar-wrapper-button {
+  width: 100%;
+  height: 3.125rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home-button {
+  background-image: linear-gradient(282deg, #4c410b 0%, #F76B1C 100%);
+  cursor: cell;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.new-blog-home-button {
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  cursor: cell;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  border-radius: 15px;
   color: white;
 }
