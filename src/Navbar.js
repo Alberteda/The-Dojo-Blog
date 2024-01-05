@@ -2,9 +2,17 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
-        <a href="/home">Home</a>
-        <a href="/NewBlog">New Blog</a>
+    <div className="navbar">
+        <div className="navbar-wrapper-button">
+            <button  className='home-button' href="/home" >
+                Home
+            </button>
+        </div>
+        <div className="navbar-wrapper-button">
+            <button className='new-blog-home-button' href="/NewBlog">
+                New Blog
+            </button>
+        </div>
     </div>
   )
 }
