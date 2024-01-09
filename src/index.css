@@ -4,11 +4,13 @@
 /* base styles */
 * {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Rubik Doodle Shadow', system-ui;
 }
 body {
   background-color: #66645c;
-  padding: 10px 0 50px 0;
+  padding: 24px;
   color: white;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,20 +19,34 @@ body {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-y: scroll;
 }
 
 .app-container {
+  max-width: 100%;
+  margin: 0 auto;
   overflow-x: hidden;
-  padding: 0 6rem;
 }
 
 .navbar {
-  width: 100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 8rem 8rem 1fr;
   padding: 0.625rem 1.25rem;
   margin: auto auto auto 0;
   gap: 2rem;
+}
+
+.navbar-divider-container {
+  width: 90%;
+  margin: 0.5rem auto 1rem auto;
+}
+
+.nabar-divider {
+  width: 100%;
+  border: 2px solid white;
 }
 
 .home-button {
