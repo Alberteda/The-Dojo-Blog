@@ -2,21 +2,26 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-        <div className="navbar-button-wrapper">
-            <button  className='home-button' href="/home" >
-                Home
-            </button>
+    <>
+        <div className="navbar">
+            <div className="navbar-button-wrapper">
+                <button  className='home-button' href="/home" >
+                    Home
+                </button>
+            </div>
+            <div className="navbar-button-wrapper">
+                <button className='play-button' href="/NewBlog">
+                    Play
+                </button>
+            </div>
+            <div className="navbar-title">
+                <h1>Dojo Club</h1>
+            </div>
         </div>
-        <div className="navbar-button-wrapper">
-            <button className='play-button' href="/NewBlog">
-                Play
-            </button>
+        <div className="navbar-divider-container">
+            <hr className='navbar-divider' />
         </div>
-        <div className="navbar-title">
-            <h1>Dojo Club</h1>
-        </div>
-    </div>
+    </>
   )
 }
 
