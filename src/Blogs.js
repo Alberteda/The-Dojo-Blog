@@ -5,7 +5,7 @@ const Blogs = ({blogs, handleDelete}) => {
     <div className="blog-preview-container">
         {
         blogs.map((blog) => (
-            <div className="blog-preview">
+            <div className="blog-preview" key={blog.id}>
                 <h1>{blog.title}</h1>
                 <p className="blog-author">Written By {blog.author}</p>
                 <button 
