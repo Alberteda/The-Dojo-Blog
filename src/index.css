@@ -77,3 +77,20 @@ body {
 .home-page {
   text-align: center;
 }
+
+.blog-preview-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: left;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-delete-bttn {
+  width: 5rem;
+  margin-top: 1rem;
+}
+
+.blog-author {
+  margin-top: 0.5rem;
+}
