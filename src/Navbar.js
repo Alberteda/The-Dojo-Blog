@@ -13,6 +13,9 @@ const Navbar = () => {
                 Play
             </button>
         </div>
+        <div className="navbar-title">
+            <h1>Dojo Club</h1>
+        </div>
     </div>
   )
 }
