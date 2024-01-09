@@ -10,6 +10,12 @@ body {
   background-color: #66645c;
   padding: 10px 0 50px 0;
   color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .navbar {
