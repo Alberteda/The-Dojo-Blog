@@ -6,7 +6,7 @@ const Blogs = ({blogs, handleDelete}) => {
         {
         blogs?.map((blog) => (
             <div className="blog-preview" key={blog.id}>
-                <h1>{blog.title}</h1>
+                <h2>{blog.title}</h2>
                 <p className="blog-author">Written By {blog.author}</p>
                 <button 
                     className="blog-delete-bttn"
