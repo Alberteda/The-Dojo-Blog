@@ -78,6 +78,10 @@ body {
   text-align: center;
 }
 
+.home-page h1 {
+  text-align: left;
+}
+
 .blog-preview-container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
