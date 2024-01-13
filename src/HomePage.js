@@ -15,7 +15,6 @@ const HomePage = () => {
         return res.json()
       })
       .then((data) => {
-        console.log(data)
         setBlogs(data)
       })
   }, [])
