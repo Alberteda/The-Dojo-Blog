@@ -33,7 +33,7 @@ body {
 .navbar {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 8rem 8rem 1fr;
+  grid-template-columns: 8rem 12rem 1fr;
   padding: 0.625rem 1.25rem;
   margin: auto auto auto 0;
   gap: 2rem;
@@ -60,7 +60,7 @@ body {
   color: white;
 }
 
-.play-button {
+.new-blog-button {
   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   cursor: cell;
   width: 100%;
