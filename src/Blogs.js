@@ -8,14 +8,14 @@ const Blogs = ({blogs, handleDelete}) => {
             <div className="blog-preview" key={blog.id}>
                 <h2>{blog.title}</h2>
                 <p className="blog-author">Written By {blog.author}</p>
-                <button 
+                {/* <button 
                     className="blog-delete-bttn"
                     onClick={() => (
                         handleDelete(blog.id)
                     )}
                 >
                     delete blog
-                </button>
+                </button> */}
             </div>
         ))
     }
