@@ -34,7 +34,7 @@ body {
   max-width: 100%;
   display: grid;
   grid-template-columns: 8rem 12rem 1fr;
-  padding: 0.625rem 1.25rem;
+  padding: 0.625rem 0;
   margin: auto auto auto 0;
   gap: 2rem;
 }
