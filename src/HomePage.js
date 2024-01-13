@@ -23,6 +23,7 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
+        <h1>All Blogs!</h1>
         <Blogs blogs={blogs} handleDelete={handleDelete}/>
     </div>
   )
