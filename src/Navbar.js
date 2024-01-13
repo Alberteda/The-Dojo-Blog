@@ -10,8 +10,8 @@ const Navbar = () => {
                 </button>
             </div>
             <div className="navbar-button-wrapper">
-                <button className='play-button' href="/NewBlog">
-                    Play
+                <button className='new-blog-button' href="/NewBlog">
+                    New Blog
                 </button>
             </div>
             <div className="navbar-title">
