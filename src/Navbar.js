@@ -1,18 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
         <div className="navbar">
             <div className="navbar-button-wrapper">
-                <button  className='home-button' href="/home" >
-                    Home
-                </button>
+                <Link to="/" >
+                    <button  className='home-button'>
+                        Home
+                    </button>
+                </Link>
             </div>
             <div className="navbar-button-wrapper">
-                <button className='new-blog-button' href="/NewBlog">
-                    New Blog
-                </button>
+                <Link to="/create">
+                    <button className='new-blog-button'>
+                        New Blog
+                    </button>
+                </Link>
             </div>
             <div className="navbar-title">
                 <h1>Dojo Club</h1>
