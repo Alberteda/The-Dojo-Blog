@@ -1,23 +1,9 @@
-import {React, useState, useEffect} from 'react'
+import {React} from 'react'
 import Blogs from './Blogs'
+import { useBlogApi } from './api-hooks/useBlogApi'
 
 const HomePage = () => {
-  const [blogs, setBlogs] = useState(null)
-
-  const handleDelete = (id) => {
-    const newBlog = blogs.filter((blog) => (blog.id !== id))
-    setBlogs(newBlog)
-  }
-
-  useEffect(() => {
-    fetch('http://localhost:8000/blogs')
-      .then((res) => {
-        return res.json()
-      })
-      .then((data) => {
-        setBlogs(data)
-      })
-  }, [])
+  const { blogs, handleDelete } = useBlogApi()
 
 
   return (
