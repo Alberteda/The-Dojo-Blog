@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export const useBlogApi = () => {
+export const useBlogApi = (url) => {
     const [blogs, setBlogs] = useState(null)
 
     const handleDelete = (id) => {
@@ -9,14 +9,14 @@ export const useBlogApi = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:8000/blogs')
+        fetch(url)
         .then((res) => {
             return res.json()
         })
         .then((data) => {
             setBlogs(data)
         })
-    }, [])
+    }, [url])
 
     return {
         handleDelete,
