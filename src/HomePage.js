@@ -3,7 +3,7 @@ import Blogs from './Blogs'
 import { useBlogApi } from './api-hooks/useBlogApi'
 
 const HomePage = () => {
-  const { blogs, handleDelete } = useBlogApi()
+  const { blogs, handleDelete } = useBlogApi('http://localhost:8000/blogs')
 
 
   return (
